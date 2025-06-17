@@ -546,53 +546,84 @@
         }
 
         @media (max-width: 480px) {
+            .frostpunk-container {
+                width: 100%;
+                border-radius: 0;
+                margin: 0;
+            }
+            
+            .content {
+                padding: 8px;
+            }
+            
             .title {
-                font-size: 1.8rem;
+                font-size: 1.2rem;
+                letter-spacing: 1px;
             }
             
             .subtitle {
-                font-size: 1rem;
+                font-size: 0.7rem;
             }
             
             .visualizer-container {
-                height: 120px;
+                height: 70px;
             }
             
             .bar {
-                width: 8px;
+                width: 4px;
             }
             
             .buttons {
-                gap: 15px;
+                gap: 8px;
             }
             
             .btn {
-                width: 45px;
-                height: 45px;
-                font-size: 16px;
+                width: 32px;
+                height: 32px;
+                font-size: 12px;
             }
             
             .message-title {
-                font-size: 1.3rem;
+                font-size: 0.9rem;
             }
             
             .typing-text {
-                font-size: 0.9rem;
-                min-height: 60px;
+                font-size: 0.7rem;
+                min-height: 40px;
             }
             
             .answer-form {
-                gap: 10px;
+                gap: 8px;
+                margin-top: 10px;
             }
             
             .answer-input {
-                padding: 10px 15px;
-                font-size: 1rem;
+                padding: 8px 12px;
+                font-size: 0.8rem;
             }
             
             .submit-btn {
-                padding: 10px 20px;
-                font-size: 1rem;
+                padding: 8px 15px;
+                font-size: 0.8rem;
+            }
+            
+            .info-panel {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+            
+            .info-item {
+                flex: 1 1 45%;
+                margin: 3px 0;
+            }
+            
+            .info-label {
+                font-size: 0.6rem;
+            }
+            
+            .info-value {
+                font-size: 0.8rem;
             }
         }
 
